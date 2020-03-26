@@ -245,8 +245,8 @@
 		$.ajax({
 			url : "/member/login",
 			type : "post",
-			data : {"id": $("#login_id").val(),
-					"pw" : $("#login_pw").val()
+			data : {"member_id": $("#login_id").val(),
+					"member_pw" : $("#login_pw").val()
 					},
 			success : function(result){
 				//로그인 완료
@@ -273,7 +273,9 @@
 	$("#loginModal").on("shown.bs.modal",function(){
 		$("#login_id").focus();
 		loginCanEnter = true;
-	}) 
+	}).on("hide.bs.modal",function(){
+		loginCanEnter = false;
+	})
 	
 	$(document).keydown(function(event){
 		

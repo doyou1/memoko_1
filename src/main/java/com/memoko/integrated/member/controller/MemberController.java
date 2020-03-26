@@ -54,13 +54,14 @@ public class MemberController {
 	   
 	   @RequestMapping(value="/login",method=RequestMethod.POST)
 	   @ResponseBody
-	   public int login(String id, String pw,HttpSession session) {
-	      
-		  MemberVO member = dao.memberSelectOne(id);
+	   public int login(String login_id, String login_pw,HttpSession session) {
+	      System.out.println(login_id);
+	      System.out.println(login_pw);
+		  MemberVO member = dao.memberSelectOne(login_id);
 		  int result = 0;
 		  
 		  if(member != null) {
-			  if(member.getMember_pw().equalsIgnoreCase(pw)) {
+			  if(member.getMember_pw().equalsIgnoreCase(login_pw)) {
 				  result = 1;
 				  System.out.println("로그인 성공");
 				  session.setAttribute("userId", member.getMember_id());

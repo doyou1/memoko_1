@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/animal-sniffer-annotations-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/annotations-4.1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/api-common-1.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/auto-value-annotations-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/checker-compat-qual-2.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/conscrypt-openjdk-uber-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/error_prone_annotations-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/gax-1.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/gax-grpc-1.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/google-auth-library-credentials-0.19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/google-auth-library-oauth2-http-0.19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/google-cloud-vision-1.99.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/google-http-client-1.33.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/google-http-client-jackson2-1.33.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-alts-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-api-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-auth-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-context-1.22.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-core-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-grpclb-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-netty-shaded-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-protobuf-1.26.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-protobuf-lite-1.26.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/grpc-stub-1.26.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/guava-28.1-android.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/httpclient-4.5.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/httpcore-4.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/jackson-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/netty-all-4.1.47.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/netty-tcnative-2.0.25.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/opencensus-api-0.24.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/opencensus-contrib-grpc-metrics-0.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/opencensus-contrib-http-util-0.24.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/perfmark-api-0.19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/protobuf-java-3.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/protobuf-java-util-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/proto-google-cloud-vision-v1-1.81.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/proto-google-cloud-vision-v1p1beta1-0.82.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/proto-google-cloud-vision-v1p2beta1-1.81.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/proto-google-cloud-vision-v1p3beta1-0.82.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/proto-google-cloud-vision-v1p4beta1-0.82.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/proto-google-common-protos-1.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/googleapi/threetenbp-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jsoups/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jsoups/jsoup-1.13.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jsoups/jsoup-1.13.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/IT/appengine-api-1.0-sdk-1.9.76.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Desktop/IT/appengine-gcs-client-0.8.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

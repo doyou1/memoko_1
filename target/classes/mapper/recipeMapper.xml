@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.memoko.integrated.recipe.dao.RecipeMapper">
+	<insert id="insertRecipe" parameterType="recipe">
+		insert into recipe(
+			recipe_num
+			,member_id
+			,recipe_title
+		)values(
+			recipe_seq.nextval
+			,#{member_id}
+			,#{recipe_title}
+		)
+		<selectKey keyProperty="recipe_num" resultType="java.lang.Integer" order="AFTER">
+			select recipe_seq.currval from dual
+		</selectKey>
+	</insert>
+	
+	<delete id="dropContentSeq">
+		drop sequence recipe_content_seq
+	</delete>
+	
+	<insert id="createContentSeq">
+		create sequence recipe_content_seq
+	</insert>
+
+	<delete id="dropIngrdSeq">
+		drop sequence recipe_ingrd_seq
+	</delete>
+	
+	<insert id="createIngrdSeq">
+		create sequence recipe_ingrd_seq
+	</insert>
+	
+	<insert id="insertRecipeContent" parameterType="recipeContent">
+
+		insert into recipe_content
+		(
+			content_num
+			,member_id
+			,recipe_num
+			,recipe_content
+			,recipe_image
+		)
+		values
+		(
+			recipe_content_seq.nextval
+			,#{member_id}
+			,#{recipe_num}
+			,#{recipe_content}
+			,#{recipe_image}	
+		)
+
+	</insert>
+
+	<insert id="insertRecipeIngrd" parameterType="recipeIngrd">
+
+		insert into recipe_ingrd
+		(
+			recipe_num
+			,member_id
+			,ingrd_num
+			,ingrd_name
+			,ingrd_amount
+
+		)
+		values
+		(
+			#{recipe_num}
+			,#{member_id}
+			,recipe_ingrd_seq.nextval
+			,#{ingrd_name}
+			,#{ingrd_amount}	
+		)
+
+	</insert>
+</mapper>
